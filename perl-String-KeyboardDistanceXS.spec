@@ -14,7 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	23daf2463e88297d7bc9ae72afc70e84
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
