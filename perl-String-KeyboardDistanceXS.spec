@@ -8,7 +8,7 @@ Summary:	String::KeyboardDistanceXS - String Comparison Algorithm
 Summary(pl):	String::KeyboardDistanceXS - algorytm porównywania ³añcuchów
 Name:		perl-String-KeyboardDistanceXS
 Version:	0.02
-Release:	2
+Release:	3
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
