@@ -5,33 +5,36 @@
 %define	pdir	String
 %define	pnam	KeyboardDistanceXS
 Summary:	String::KeyboardDistanceXS - String Comparison Algorithm
-#Summary(pl):	
+Summary(pl):	String::KeyboardDistanceXS - algorytm porównywania ³añcuchów
 Name:		perl-String-KeyboardDistanceXS
 Version:	0.02
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	rpm-perlprov >= 3.0.3-26
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is an XS implementation of the main qwerty functions for computing
-the distance and match probabilities from the String::KeyboardDistance
-module.  Please see the documentation for String::KeyboardDistance for
-more about these functions.
+This is an XS implementation of the main qwerty functions for
+computing the distance and match probabilities from the
+String::KeyboardDistance module. Please see the documentation for
+String::KeyboardDistance for more about these functions.
 
-# %description -l pl
-# TODO
+%description -l pl
+To jest implementacja XS g³ównych funkcji qwerty z modu³u
+String::KeyboardDistance, s³u¿±cych do obliczania odleg³o¶ci i
+dopasowywania prawdopodobieñstwa. Wiêcej o tych funkcjach w
+dokumentacji do String::KeyboardDistance.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
-%{__make}
+%{__make} OPTIMIZE="%{rpmcflags}"
+
 %{!?_without_tests:%{__make} test}
 
 %install
