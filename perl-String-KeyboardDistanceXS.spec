@@ -4,7 +4,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	KeyboardDistanceXS
-Summary:	String::KeyboardDistanceXS - String Comparison Algorithm
+Summary:	String::KeyboardDistanceXS - string comparison algorithm
 Summary(pl):	String::KeyboardDistanceXS - algorytm porównywania ³añcuchów
 Name:		perl-String-KeyboardDistanceXS
 Version:	0.02
