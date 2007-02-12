@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	KeyboardDistanceXS
 Summary:	String::KeyboardDistanceXS - string comparison algorithm
-Summary(pl):	String::KeyboardDistanceXS - algorytm porÛwnywania ≥aÒcuchÛw
+Summary(pl.UTF-8):   String::KeyboardDistanceXS - algorytm por√≥wnywania ≈Ça≈Ñcuch√≥w
 Name:		perl-String-KeyboardDistanceXS
 Version:	0.02
 Release:	4
@@ -24,10 +24,10 @@ computing the distance and match probabilities from the
 String::KeyboardDistance module. Please see the documentation for
 String::KeyboardDistance for more about these functions.
 
-%description -l pl
-To jest implementacja XS g≥Ûwnych funkcji qwerty z modu≥u
-String::KeyboardDistance, s≥uø±cych do obliczania odleg≥o∂ci i
-dopasowywania prawdopodobieÒstwa. WiÍcej o tych funkcjach w
+%description -l pl.UTF-8
+To jest implementacja XS g≈Ç√≥wnych funkcji qwerty z modu≈Çu
+String::KeyboardDistance, s≈Çu≈ºƒÖcych do obliczania odleg≈Ço≈õci i
+dopasowywania prawdopodobie≈Ñstwa. Wiƒôcej o tych funkcjach w
 dokumentacji do String::KeyboardDistance.
 
 %prep
