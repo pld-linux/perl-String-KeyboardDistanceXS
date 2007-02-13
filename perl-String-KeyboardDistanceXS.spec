@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	KeyboardDistanceXS
 Summary:	String::KeyboardDistanceXS - string comparison algorithm
-Summary(pl.UTF-8):   String::KeyboardDistanceXS - algorytm porównywania łańcuchów
+Summary(pl.UTF-8):	String::KeyboardDistanceXS - algorytm porównywania łańcuchów
 Name:		perl-String-KeyboardDistanceXS
 Version:	0.02
 Release:	4
