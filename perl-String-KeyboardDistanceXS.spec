@@ -58,5 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/String/KeyboardDistanceXS
 %attr(755,root,root) %{perl_vendorarch}/auto/String/KeyboardDistanceXS/*.so
 %{perl_vendorarch}/auto/String/KeyboardDistanceXS/*.ix
-%{perl_vendorarch}/auto/String/KeyboardDistanceXS/*.bs
 %{_mandir}/man3/*
