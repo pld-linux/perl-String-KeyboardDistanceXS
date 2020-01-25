@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	String
 %define		pnam	KeyboardDistanceXS
 Summary:	String::KeyboardDistanceXS - string comparison algorithm
